@@ -1,0 +1,47 @@
+.jumbotron {
+    background-color: #272727;
+    animation-name: presentacion-open;
+    animation-duration: 2s;
+  }
+  
+  .fluid-container{
+    text-align: center;
+  }
+  
+  @keyframes presentacion-open {
+    from {background-color: white;}
+    to {background-color: #272727;}
+  }
+  
+  .fluid-container img{
+    color: #FF4F00;
+    animation-name: image-open;
+    animation-duration: 3s;
+  }
+  
+  @keyframes image-open {
+    from {
+      width: 0%;
+      opacity: 0;
+    }
+    to {
+      width: 15%;
+      opacity: 1;}
+  }
+  
+  .display-5 {
+    animation-name: presentacion-text-open;
+    animation-duration: 6s;
+    color: #FF4F00;
+  }
+  
+  .display-3{
+    color: white;
+    animation-name: presentacion-text-open;
+    animation-duration: 6s;
+  }
+  
+  @keyframes presentacion-text-open {
+    from{opacity: 0;}
+    to{ opacity: 1;}
+  }

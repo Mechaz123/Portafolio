@@ -1,0 +1,52 @@
+.fluid-container {
+    text-align: center;
+    background-color: #FF4F00;
+    animation-name: menu-open;
+    animation-duration: 1s;
+  }
+  
+  @keyframes menu-open {
+    from {
+      width: 30%;
+      opacity: 0;
+    }
+  
+    to {
+      width: 100%;
+      opacity: 1;
+      ;
+    }
+  }
+  
+  .fluid-container li {
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    animation-name: menu-open-li;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes menu-open-li {
+    from {opacity: 0.1;}
+    to {opacity: 1;}
+  }
+  
+  .fluid-container a {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .fluid-container a:hover{
+    border-radius: 10%;
+    background-color: aliceblue;
+    color: #272727;
+    transition: 0.5s;
+  }
+  .fluid-container a:hover svg{
+    fill: black;
+  }
+  .fluid-container svg {
+    width: 30px;
+    height: 30px;
+    color: white;
+  }

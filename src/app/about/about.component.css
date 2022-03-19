@@ -1,0 +1,41 @@
+.card {
+    width: 55rem;
+    margin: 15px;
+}
+
+.fluid-container {
+    display: flex;
+    margin-left: 2%;
+    animation-name: about-open;
+    animation-duration: 6s;
+}
+
+.fluid-container .card-header {
+    font-weight: bold;
+    color: white;
+    background-color: #FF4F00;
+}
+
+.fluid-container .jumbotron {
+    margin: 0;
+    padding: 10px;
+    font-family: Bahnschrift;
+    color: black;
+    background-color: white;
+
+}
+
+@keyframes about-open {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fluid-container img {
+    margin-top: 3%;
+    margin-left: 3%;
+}
