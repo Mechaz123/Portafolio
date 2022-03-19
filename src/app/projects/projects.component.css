@@ -1,0 +1,27 @@
+.container {
+    animation-name: open-projects;
+    animation-duration: 6s;
+}
+
+@keyframes open-projects {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+.container .card-header {
+    font-weight: bold;
+    color: white;
+    background-color: #FF4F00;
+}
+
+.projects {
+    display: flex;
+}
+
+.projects .card {
+    margin-left: 3%;
+}
+
+.btn {
+    margin-left: 10%;
+}
