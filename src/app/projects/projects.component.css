@@ -8,7 +8,7 @@
     to{opacity: 1;}
 }
 
-.container .card-header {
+.container-xxl .card-header {
     font-weight: bold;
     color: white;
     background-color: #FF4F00;
@@ -19,7 +19,7 @@
 }
 
 .projects .card {
-    margin-left: 3%;
+    margin-left: 5%;
 }
 
 .btn {
