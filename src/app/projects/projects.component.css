@@ -1,4 +1,4 @@
-.container-xxl {
+.container {
     animation-name: open-projects;
     animation-duration: 6s;
 }
@@ -8,13 +8,14 @@
     to{opacity: 1;}
 }
 
-.container-xxl .card-header {
+.container .card-header {
     font-weight: bold;
     color: white;
     background-color: #FF4F00;
 }
 
 .projects {
+    margin-bottom: 5%;
     display: flex;
 }
 
